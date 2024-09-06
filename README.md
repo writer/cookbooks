@@ -64,7 +64,7 @@ Feel free to simply copy and paste the code snippets in the notebooks. If you pr
   - `text_completion.ipynb`: Shows how to use the Writer SDK for text completion tasks.
   - `chat_completion.ipynb`: Explores chat-based interactions.
 - Knowledge Graphs (`/knowledge_graph`)
-  - `knowledge_graph_basics.ipynb`: Introduces the basics of working with files and Knowledge Graphs.
+  - `knowledge_graph.ipynb`: Introduces the basics of working with files and Knowledge Graphs.
 
 ## More resources
 - [Writer developer docs](https://dev.writer.com/) - more guides and tutorials can be found here
