@@ -4,19 +4,22 @@ This repository contains a collection of Jupyter notebooks demonstrating how to 
 
 ## Table of Contents
 
-1. [Prerequisites](#prerequisites)
-2. [Installation](#installation)
-3. [Running the cookbooks](#running-the-cookbooks)
-4. [Cookbook descriptions](#cookbook-descriptions)
-5. [More resources](#more-resources)
-5. [About Writer](#about-writer)
+- [Writer Cookbooks](#writer-cookbooks)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the cookbooks](#running-the-cookbooks)
+  - [Cookbook descriptions](#cookbook-descriptions)
+  - [More resources](#more-resources)
+  - [About Writer](#about-writer)
+  - [Support](#support)
 
 ## Prerequisites
 
 - Python 3.7 or higher
 - Jupyter Notebook or JupyterLab
 - pip (Python package installer)
-- A Writer API key ([signup for free](https://app.writer.com/aistudio/signup?utm_campaign=devrel), the follow [this Quickstart](https://dev.writer.com/api-guides/quickstart))
+- A Writer API key ([signup for free](https://app.writer.com/aistudio/signup?utm_campaign=devrel), then follow [this Quickstart](https://dev.writer.com/api-guides/quickstart))
 
 ## Installation
 
@@ -32,11 +35,6 @@ Feel free to simply copy and paste the code snippets in the notebooks. If you pr
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. Install the required packages:
-   ```
-   pip install -r requirements.txt
    ```
 
 ## Running the cookbooks
@@ -55,6 +53,11 @@ Feel free to simply copy and paste the code snippets in the notebooks. If you pr
 3. Navigate to the notebook you want to run and open it.
 
 4. Follow the instructions within each notebook to execute the cells and interact with the AI SDK.
+
+5. When you’re done using the notebooks, deactivate the virtual environment:
+   ```
+   deactivate
+   ```
 
 ## Cookbook descriptions
 
