@@ -77,7 +77,8 @@ Feel free to simply copy and paste the code snippets in the notebooks. If you pr
 
 ## More resources
 - [Writer developer docs](https://dev.writer.com/) - more guides and tutorials can be found here
-- [Writer Framework](https://github.com/writer/writer-framework) - our open-source Python framework for rapidly building AI apps 
+- [Writer Framework](https://github.com/writer/writer-framework) - our open-source Python framework for rapidly building AI apps
+- [Writer Framework sample apps](https://github.com/writer/framework-tutorials) - example applications built using the Writer Framework
 - [Writer Python SDK](https://github.com/writer/writer-python)  
 - [Writer Node SDK](https://github.com/writer/writer-node)  
 
