@@ -16,6 +16,7 @@ venv/
 env/
 .venv/
 .env/
+my_env/
 
 # Data files
 *.csv

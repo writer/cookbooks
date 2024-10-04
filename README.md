@@ -37,6 +37,12 @@ Feel free to simply copy and paste the code snippets in the notebooks. If you pr
    source my_env/bin/activate  # On Windows, use `my_env\Scripts\activate`
    ```
 
+3. Once you have an API key, we recommend that you store it as an environment variable in a `.env` file like so:
+
+   ```
+   WRITER_API_KEY="{Your Writer API key goes here}"
+   ```
+
 ## Running the cookbooks
 
 1. Ensure your virtual environment is activated.
