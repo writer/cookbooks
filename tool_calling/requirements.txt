@@ -1,0 +1,4 @@
+geopy
+python-dotenv
+requests
+writer-sdk

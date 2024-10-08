@@ -74,6 +74,10 @@ Feel free to simply copy and paste the code snippets in the notebooks. If you pr
   - `chat_completion.ipynb`: Explores chat-based interactions.
 - Knowledge Graphs (`/knowledge_graph`)
   - `knowledge_graph.ipynb`: Introduces the basics of working with files and Knowledge Graphs.
+- Tool calling (`/tool_calling`)
+  - `tool_calling_api.ipynb`: Introduces the basics of tooling calling and how to use the Writer SDK for tool calling tasks.
+  - `tool_calling_streaming.ipynb`: Shows how to use tool calling with streaming responses.
+  - `tool_calling_math.ipynb`: Shows how to use tool calling to solve a math problem.
 
 ## More resources
 - [Writer developer docs](https://dev.writer.com/) - more guides and tutorials can be found here
