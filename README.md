@@ -8,7 +8,7 @@ You can run the cookbooks locally, or, if you prefer, copy and paste the code sn
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Run the cookbooks](#run-the-cookbooks)
+- [Running the cookbooks](#running-the-cookbooks)
 - [Cookbook descriptions](#cookbook-descriptions)
 - [More resources](#more-resources)
 - [About Writer](#about-writer)
@@ -44,7 +44,7 @@ To run the cookbooks locally, follow these setup steps:
    WRITER_API_KEY="{Your Writer API key goes here}"
    ```
 
-## Run the cookbooks
+## Running the cookbooks
 
 1. Ensure your virtual environment is activated.
 
