@@ -2,28 +2,29 @@
 
 This repository contains a collection of Jupyter notebooks demonstrating how to use the Writer Python SDK for various AI-related tasks. These notebooks provide practical examples and tutorials for working with our models and services, including model retrieval, text and chat completion, knowledge graph manipulation, and more.
 
+You can run the cookbooks locally, or, if you prefer, copy and paste the code snippets from the notebooks into your own Python files.
+
 ## Table of Contents
 
-- [Writer Cookbooks](#writer-cookbooks)
-  - [Table of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the cookbooks](#running-the-cookbooks)
-  - [Cookbook descriptions](#cookbook-descriptions)
-  - [More resources](#more-resources)
-  - [About Writer](#about-writer)
-  - [Support](#support)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the cookbooks](#running-the-cookbooks)
+- [Cookbook descriptions](#cookbook-descriptions)
+- [More resources](#more-resources)
+- [About Writer](#about-writer)
+- [Support](#support)
 
 ## Prerequisites
 
 - Python 3.7 or higher
 - Jupyter Notebook or JupyterLab
 - pip (Python package installer)
-- A Writer API key ([signup for free](https://app.writer.com/aistudio/signup?utm_campaign=devrel), then follow [this Quickstart](https://dev.writer.com/api-guides/quickstart))
+- An [AI Studio account](https://app.writer.com/aistudio/signup?utm_campaign=devrel)
+- A Writer API key. Follow this [API Quickstart](https://dev.writer.com/api-guides/quickstart) to get your API key.
 
 ## Installation
 
-Feel free to simply copy and paste the code snippets in the notebooks. If you prefer to run the cookbooks locally, follow these steps:
+To run the cookbooks locally, follow these setup steps:
 
 1. Clone this repository:
    ```
@@ -58,31 +59,30 @@ Feel free to simply copy and paste the code snippets in the notebooks. If you pr
 
 3. Navigate to the notebook you want to run and open it.
 
-4. Follow the instructions within each notebook to execute the cells and interact with the AI SDK.
+4. Follow the instructions within each notebook to execute the cells and interact with the Writer SDK.
    
-5. When you’re done using the notebooks, deactivate the virtual environment:
-   ```
-   deactivate
-   ```
-
 ## Cookbook descriptions
 
-- Models (`/models`)
-  - `model_retrieval.ipynb`: Demonstrates how to retrieve and list available models.
+- Applications (`/applications`)
+  - `application_basic_usage.ipynb`: Invoke no-code applications using the Writer SDK.
 - Completion (`/completion`)
-  - `text_completion.ipynb`: Shows how to use the Writer SDK for text completion tasks.
+  - `text_completion.ipynb`: Use the Writer SDK for text completion tasks.
   - `chat_completion.ipynb`: Explores chat-based interactions.
 - Knowledge Graphs (`/knowledge_graph`)
   - `knowledge_graph.ipynb`: Introduces the basics of working with files and Knowledge Graphs.
+- Models (`/models`)
+  - `model_retrieval.ipynb`: Retrieve and list available Palmyra models.
 - Tool calling (`/tool_calling`)
   - `tool_calling_api.ipynb`: Introduces the basics of tooling calling and how to use the Writer SDK for tool calling tasks.
-  - `tool_calling_streaming.ipynb`: Shows how to use tool calling with streaming responses.
-  - `tool_calling_math.ipynb`: Shows how to use tool calling to solve a math problem.
+  - `tool_calling_kg.ipynb`: Query a Knowledge Graph during a chat.
+  - `tool_calling_llm.ipynb`: Invoke a different LLM during a chat with a Palmyra model.
+  - `tool_calling_streaming.ipynb`: Use tool calling with streaming responses.
+  - `tool_calling_math.ipynb`: Solve a math problem using tool calling.
 
 ## More resources
-- [Writer developer docs](https://dev.writer.com/) - more guides and tutorials can be found here
-- [Writer Framework](https://github.com/writer/writer-framework) - our open-source Python framework for rapidly building AI apps
-- [Writer Framework sample apps](https://github.com/writer/framework-tutorials) - example applications built using the Writer Framework
+- [Writer developer docs](https://dev.writer.com/)
+- [Writer Framework](https://github.com/writer/writer-framework): An open-source Python framework for rapidly building AI apps
+- [Writer Framework sample apps](https://github.com/writer/framework-tutorials): Example applications built using the Writer Framework
 - [Writer Python SDK](https://github.com/writer/writer-python)  
 - [Writer Node SDK](https://github.com/writer/writer-node)  
 
