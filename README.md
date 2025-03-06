@@ -78,6 +78,8 @@ To run the cookbooks locally, follow these setup steps:
   - `tool_calling_llm.ipynb`: Invoke a different LLM during a chat with a Palmyra model.
   - `tool_calling_streaming.ipynb`: Use tool calling with streaming responses.
   - `tool_calling_math.ipynb`: Solve a math problem using tool calling.
+- Tools (`/tools`)
+  - `text_splitting.ipynb`: Demonstrates how to use the `context_aware_splitting` tool to split a document into semantically coherent chunks.
 
 ## More resources
 - [Writer developer docs](https://dev.writer.com/)
