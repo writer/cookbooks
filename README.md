@@ -65,6 +65,8 @@ To run the cookbooks locally, follow these setup steps:
 
 - Applications (`/applications`)
   - `application_basic_usage.ipynb`: Invoke no-code applications using the Writer SDK.
+  - `application_graph_management.ipynb`: Attach a Knowledge Graph to a no-code application via the Writer SDK.
+  - `application_jobs_utilization.ipynb`: Run no-code applications asynchronously and manage the async jobs.
 - Completion (`/completion`)
   - `text_completion.ipynb`: Use the Writer SDK for text completion tasks.
   - `chat_completion.ipynb`: Explores chat-based interactions.
@@ -78,6 +80,10 @@ To run the cookbooks locally, follow these setup steps:
   - `tool_calling_llm.ipynb`: Invoke a different LLM during a chat with a Palmyra model.
   - `tool_calling_streaming.ipynb`: Use tool calling with streaming responses.
   - `tool_calling_math.ipynb`: Solve a math problem using tool calling.
+- Tools (`/tools`)
+  - `medical_comprehend.ipynb`: Analyze a medical document and extract entities.
+  - `pdf_parser.ipynb`: Parse a PDF file.
+  - `text_splitting.ipynb`: Split long text into semantically meaningful chunks.
 
 ## More resources
 - [Writer developer docs](https://dev.writer.com/)
