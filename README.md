@@ -19,7 +19,7 @@ You can run the cookbooks locally, or, if you prefer, copy and paste the code sn
 - Python 3.7 or higher
 - Jupyter Notebook or JupyterLab
 - pip (Python package installer)
-- An [AI Studio account](https://app.writer.com/aistudio/signup?utm_campaign=devrel)
+- An [AI Studio account](https://app.writer.com/register)
 - A Writer API key. Follow this [API Quickstart](https://dev.writer.com/api-guides/quickstart) to get your API key.
 
 ## Installation
