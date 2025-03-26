@@ -74,6 +74,9 @@ To run the cookbooks locally, follow these setup steps:
   - `knowledge_graph.ipynb`: Introduces the basics of working with files and Knowledge Graphs.
 - Models (`/models`)
   - `model_retrieval.ipynb`: Retrieve and list available Palmyra models.
+  - `palmyra_creative.ipynb`: Use Palmyra Creative for brainstorming and creative tasks.
+  - `palmyra_fin.ipynb`: Use Palmyra Fin for financial analysis.
+  - `palmyra_med.ipynb`: Use Palmyra Med for medical analysis.
 - Tool calling (`/tool_calling`)
   - `tool_calling_api.ipynb`: Introduces the basics of tooling calling and how to use the Writer SDK for tool calling tasks.
   - `tool_calling_kg.ipynb`: Query a Knowledge Graph during a chat.
