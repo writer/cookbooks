@@ -83,6 +83,7 @@ To run the cookbooks locally, follow these setup steps:
   - `tool_calling_llm.ipynb`: Invoke a different LLM during a chat with a Palmyra model.
   - `tool_calling_streaming.ipynb`: Use tool calling with streaming responses.
   - `tool_calling_math.ipynb`: Solve a math problem using tool calling.
+  - `tool_web_search`: Demonstrates how to use the prebuilt web search tool in Writer. Covers setup, basic usage, and examples of customizing search parameters such as limiting results, filtering by date, and including raw source text in responses.
 - Tools (`/tools`)
   - `medical_comprehend.ipynb`: Analyze a medical document and extract entities.
   - `pdf_parser.ipynb`: Parse a PDF file.
