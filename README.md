@@ -70,7 +70,7 @@ To run the cookbooks locally, follow these setup steps:
 - Completion (`/completion`)
   - `text_completion.ipynb`: Use the Writer SDK for text completion tasks.
   - `chat_completion.ipynb`: Explores chat-based interactions.
-  - `structured_output_cookbook.ipynb`: Shows how to use structured output in Writer AI Studio with JSON Schema and Pydantic, for streaming and non-streaming responses, using chat.chat and chat.parse.
+  - `structured_output_cookbook.ipynb`: Shows how to use structured output in Writer AI Studio with JSON Schema and Pydantic, for streaming and non-streaming responses, using `chat.chat` and `chat.parse`.
   - `multimodal_chat_x5.ipynb`: Demonstrates passing images and text to Palmyra X5 chat completions, using local or hosted images.
 - Knowledge Graphs (`/knowledge_graph`)
   - `knowledge_graph.ipynb`: Introduces the basics of working with files and Knowledge Graphs.
