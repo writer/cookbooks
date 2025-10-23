@@ -70,6 +70,8 @@ To run the cookbooks locally, follow these setup steps:
 - Completion (`/completion`)
   - `text_completion.ipynb`: Use the Writer SDK for text completion tasks.
   - `chat_completion.ipynb`: Explores chat-based interactions.
+  - `structured_output_cookbook.ipynb`: Shows how to use structured output in Writer AI Studio with JSON Schema and Pydantic, for streaming and non-streaming responses, using `chat.chat` and `chat.parse`.
+  - `multimodal_chat_x5.ipynb`: Demonstrates passing images and text to Palmyra X5 chat completions, using local or hosted images.
 - Knowledge Graphs (`/knowledge_graph`)
   - `knowledge_graph.ipynb`: Introduces the basics of working with files and Knowledge Graphs.
 - Models (`/models`)
@@ -83,6 +85,8 @@ To run the cookbooks locally, follow these setup steps:
   - `tool_calling_llm.ipynb`: Invoke a different LLM during a chat with a Palmyra model.
   - `tool_calling_streaming.ipynb`: Use tool calling with streaming responses.
   - `tool_calling_math.ipynb`: Solve a math problem using tool calling.
+  - `tool_web_search`: Demonstrates how to use the prebuilt web search tool in Writer. Covers setup, basic usage, and examples of customizing search parameters such as limiting results, filtering by date, and including raw source text in responses.
+  - `tool_translation_chat.ipynb`: Shows how to use the translation chat completions tool in Writer AI Studio, including setup and working examples for translating text in a chat.
 - Tools (`/tools`)
   - `medical_comprehend.ipynb`: Analyze a medical document and extract entities.
   - `pdf_parser.ipynb`: Parse a PDF file.
