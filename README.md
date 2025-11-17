@@ -90,7 +90,6 @@ To run the cookbooks locally, follow these setup steps:
 - Tools (`/tools`)
   - `medical_comprehend.ipynb`: Analyze a medical document and extract entities.
   - `pdf_parser.ipynb`: Parse a PDF file.
-  - `text_splitting.ipynb`: Split long text into semantically meaningful chunks.
 
 ## More resources
 - [Writer developer docs](https://dev.writer.com/)
