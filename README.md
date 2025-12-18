@@ -6,13 +6,15 @@ You can run the cookbooks locally, or, if you prefer, copy and paste the code sn
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Running the cookbooks](#running-the-cookbooks)
-- [Cookbook descriptions](#cookbook-descriptions)
-- [More resources](#more-resources)
-- [About Writer](#about-writer)
-- [Support](#support)
+- [Writer Cookbooks](#writer-cookbooks)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the cookbooks](#running-the-cookbooks)
+  - [Cookbook descriptions](#cookbook-descriptions)
+  - [More resources](#more-resources)
+  - [About Writer](#about-writer)
+  - [Support](#support)
 
 ## Prerequisites
 
@@ -83,6 +85,7 @@ To run the cookbooks locally, follow these setup steps:
   - `tool_calling_api.ipynb`: Introduces the basics of tooling calling and how to use the Writer SDK for tool calling tasks.
   - `tool_calling_kg.ipynb`: Query a Knowledge Graph during a chat.
   - `tool_calling_llm.ipynb`: Invoke a different LLM during a chat with a Palmyra model.
+  - `tool_calling_mcp.ipynb`: Use the Writer MCP server to connect agents to Writer tools.
   - `tool_calling_streaming.ipynb`: Use tool calling with streaming responses.
   - `tool_calling_math.ipynb`: Solve a math problem using tool calling.
   - `tool_web_search`: Demonstrates how to use the prebuilt web search tool in Writer. Covers setup, basic usage, and examples of customizing search parameters such as limiting results, filtering by date, and including raw source text in responses.
