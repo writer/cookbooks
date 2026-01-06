@@ -89,7 +89,6 @@ To run the cookbooks locally, follow these setup steps:
   - `tool_web_search`: Demonstrates how to use the prebuilt web search tool in Writer. Covers setup, basic usage, and examples of customizing search parameters such as limiting results, filtering by date, and including raw source text in responses.
   - `tool_translation_chat.ipynb`: Shows how to use the translation chat completions tool in Writer AI Studio, including setup and working examples for translating text in a chat.
 - Tools (`/tools`)
-  - `medical_comprehend.ipynb`: Analyze a medical document and extract entities.
   - `pdf_parser.ipynb`: Parse a PDF file.
 
 ## More resources
