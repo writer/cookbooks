@@ -81,7 +81,7 @@ To run the cookbooks locally, follow these setup steps:
   - `OpenLLMetry.ipynb`: Monitor and debug Writer API calls using OpenLLMetry and Traceloop, including workflow annotations and observability integration.
   - `Strands.ipynb`: Build agents using the AWS Strands Agents SDK with Writer models through direct integration or Amazon Bedrock.
 - Models (`/models`)
-  - `Amazon_Bedrock.ipynb`: Invoke Writer models hosted on Amazon Bedrock using the Writer SDK, including chat completion, multimodal requests, and tool calling.
+  - `Amazon_Bedrock.ipynb`: Use third-party Amazon Bedrock models through the Writer SDK, including chat completion, multimodal requests, and tool calling.
   - `model_retrieval.ipynb`: Retrieve and list available Palmyra models.
   - `palmyra_creative.ipynb`: Use Palmyra Creative for brainstorming and creative tasks.
   - `palmyra_fin.ipynb`: Use Palmyra Fin for financial analysis.
