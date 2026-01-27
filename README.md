@@ -6,13 +6,15 @@ You can run the cookbooks locally, or, if you prefer, copy and paste the code sn
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Running the cookbooks](#running-the-cookbooks)
-- [Cookbook descriptions](#cookbook-descriptions)
-- [More resources](#more-resources)
-- [About Writer](#about-writer)
-- [Support](#support)
+- [Writer Cookbooks](#writer-cookbooks)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the cookbooks](#running-the-cookbooks)
+  - [Cookbook descriptions](#cookbook-descriptions)
+  - [More resources](#more-resources)
+  - [About Writer](#about-writer)
+  - [Support](#support)
 
 ## Prerequisites
 
@@ -74,7 +76,15 @@ To run the cookbooks locally, follow these setup steps:
   - `multimodal_chat_x5.ipynb`: Demonstrates passing images and text to Palmyra X5 chat completions, using local or hosted images.
 - Knowledge Graphs (`/knowledge_graph`)
   - `knowledge_graph.ipynb`: Introduces the basics of working with files and Knowledge Graphs.
+- Integrations (`/integrations`)
+  - `instructor/Instructor.ipynb`: Extract structured data from text, CSV, or PDF files using Instructor with Writer and Pydantic models.
+  - `instructor/Advanced.ipynb`: Work with complex nested Pydantic models, validation with automatic retry/repair patterns, and streaming extraction using Instructor.
+  - `langchain/LangChain.ipynb`: Use Writer with LangChain, including chat model usage, LangGraph agents with tool calling, and DeepAgents with web search.
+  - `langchain/Advanced.ipynb`: Build agents with advanced LangChain patterns including middleware for PII detection, context engineering for personalized responses, and Writer MCP integration.
+  - `OpenLLMetry.ipynb`: Monitor and debug Writer API calls using OpenLLMetry and Traceloop, including workflow annotations and observability integration.
+  - `Strands.ipynb`: Build agents using the AWS Strands Agents SDK with Writer models through direct integration or Amazon Bedrock.
 - Models (`/models`)
+  - `Amazon_Bedrock.ipynb`: Invoke Writer models hosted on Amazon Bedrock using the Writer SDK, including chat completion, multimodal requests, and tool calling.
   - `model_retrieval.ipynb`: Retrieve and list available Palmyra models.
   - `palmyra_creative.ipynb`: Use Palmyra Creative for brainstorming and creative tasks.
   - `palmyra_fin.ipynb`: Use Palmyra Fin for financial analysis.
