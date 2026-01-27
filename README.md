@@ -5,17 +5,14 @@ This repository contains a collection of Jupyter notebooks demonstrating how to 
 You can run the cookbooks locally, or, if you prefer, copy and paste the code snippets from the notebooks into your own Python files.
 
 ## Table of Contents
-
-- [Writer Cookbooks](#writer-cookbooks)
-  - [Table of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the cookbooks](#running-the-cookbooks)
-  - [Cookbook descriptions](#cookbook-descriptions)
-  - [More resources](#more-resources)
-  - [About Writer](#about-writer)
-  - [Support](#support)
-
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the cookbooks](#running-the-cookbooks)
+- [Cookbook descriptions](#cookbook-descriptions)
+- [More resources](#more-resources)
+- [About Writer](#about-writer)
+- [Support](#support)
+  
 ## Prerequisites
 
 - Python 3.7 or higher
